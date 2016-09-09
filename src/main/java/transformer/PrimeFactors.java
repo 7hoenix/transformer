@@ -8,6 +8,8 @@ public class PrimeFactors {
        List<Integer> primeFactors = new ArrayList<>();
        if (i == 2)
            primeFactors.add(2);
+       else if (i == 3)
+           primeFactors.add(3);
        return primeFactors;
     }
 }
