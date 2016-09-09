@@ -12,4 +12,9 @@ public class PrimeFactorsTest {
     public void factors_of_one() throws Exception {
         assertEquals(Arrays.asList(), PrimeFactors.generate(1));
     }
+
+    @Test
+    public void factors_of_two() throws Exception {
+        assertEquals(Arrays.asList(2), PrimeFactors.generate(2));
+    }
 }
