@@ -18,4 +18,9 @@ public class PrimeFactorsTest {
     public void factors_of_two() throws Exception {
         assertEquals(Arrays.asList(2), PrimeFactors.generate(2));
     }
+
+    @Test
+    public void factors_of_three() throws Exception {
+        assertEquals(Arrays.asList(3), PrimeFactors.generate(3));
+    }
 }
