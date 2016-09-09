@@ -5,6 +5,7 @@ import java.util.List;
 
 public class PrimeFactors {
    public static List<Integer> generate(int i) {
-       return new ArrayList<>();
+       ArrayList<Integer> factors = new ArrayList<>();
+       return factors;
     }
 }
