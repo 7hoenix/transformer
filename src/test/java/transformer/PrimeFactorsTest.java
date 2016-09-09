@@ -2,10 +2,14 @@ package transformer;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
+import static org.junit.Assert.*;
+
 public class PrimeFactorsTest {
 
     @Test
     public void factors_of_one() throws Exception {
-        PrimeFactors.generate(1);
+        assertEquals(Arrays.asList(), PrimeFactors.generate(1));
     }
 }
