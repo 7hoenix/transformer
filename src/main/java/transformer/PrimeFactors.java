@@ -5,9 +5,9 @@ import java.util.List;
 
 public class PrimeFactors {
    public static List<Integer> generate(int i) {
-       ArrayList<Integer> factors = new ArrayList<>();
+       List<Integer> primeFactors = new ArrayList<>();
        if (i == 2)
-           factors.add(2);
-       return factors;
+           primeFactors.add(2);
+       return primeFactors;
     }
 }
