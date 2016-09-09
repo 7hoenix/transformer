@@ -2,9 +2,10 @@ package transformer;
 
 import org.junit.Test;
 
-class PrimeFactorsTest {
-    @Test
-    public void one() throws Exception {
+public class PrimeFactorsTest {
 
+    @Test
+    public void factors_of_one() throws Exception {
+        PrimeFactors.generate(1);
     }
 }
