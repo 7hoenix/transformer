@@ -10,6 +10,8 @@ public class PrimeFactors {
            primeFactors.add(2);
        else if (i == 3)
            primeFactors.add(3);
+       else if (i == 5)
+           primeFactors.add(5);
 
        if (i == 4) {
            primeFactors.add(2);
