@@ -28,4 +28,10 @@ public class PrimeFactorsTest {
     public void factors_of_four() throws Exception {
         assertEquals(Arrays.asList(2, 2), PrimeFactors.generate(4));
     }
+
+    @Test
+    public void factors_of_five() throws Exception {
+        assertEquals(Arrays.asList(5), PrimeFactors.generate(5));
+    }
+
 }
