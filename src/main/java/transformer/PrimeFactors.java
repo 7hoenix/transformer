@@ -10,6 +10,9 @@ public class PrimeFactors {
            primeFactors.add(2);
        else if (i == 3)
            primeFactors.add(3);
+
+       primeFactors.add(2);
+       primeFactors.add(2);
        return primeFactors;
     }
 }
