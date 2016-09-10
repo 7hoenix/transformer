@@ -7,9 +7,9 @@ public class PrimeFactors {
    public static List<Integer> generate(int i) {
        List<Integer> primeFactors = new ArrayList<>();
        if (i == 2)
-           primeFactors.add(2);
+           primeFactors.add(i);
        else if (i == 3)
-           primeFactors.add(3);
+           primeFactors.add(i);
        return primeFactors;
     }
 }
