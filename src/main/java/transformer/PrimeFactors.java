@@ -11,8 +11,10 @@ public class PrimeFactors {
        else if (i == 3)
            primeFactors.add(3);
 
-       primeFactors.add(2);
-       primeFactors.add(2);
+       if (i == 4) {
+           primeFactors.add(2);
+           primeFactors.add(2);
+       }
        return primeFactors;
     }
 }
