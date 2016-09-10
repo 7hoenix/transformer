@@ -34,4 +34,8 @@ public class PrimeFactorsTest {
         assertEquals(Arrays.asList(5), PrimeFactors.generate(5));
     }
 
+    @Test
+    public void factors_of_six() throws Exception {
+        assertEquals(Arrays.asList(2, 3), PrimeFactors.generate(6));
+    }
 }
